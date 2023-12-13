@@ -1,0 +1,9 @@
+.homepage{
+    background-image: linear-gradient(to bottom right,purple,cyan);
+}
+.textform{
+    border-radius: 100px;
+}
+.textform::hover{
+    background-color: aquamarine;
+}
