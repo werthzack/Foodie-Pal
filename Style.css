@@ -1,9 +1,13 @@
 .homepage{
-    background-image: linear-gradient(to bottom right,purple,cyan);
+    background-image: linear-gradient(to right,purple,cyan);
+
 }
 .textform{
     border-radius: 100px;
 }
-.textform::hover{
-    background-color: aquamarine;
+.linkpage{
+    height:30%;
+    color: black;
+    -ms-grid-row-span: 5;
+
 }
