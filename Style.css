@@ -1,13 +1,13 @@
-.homepage{
+body{
     background-image: linear-gradient(to right,purple,cyan);
 
 }
-.textform{
-    border-radius: 100px;
-}
+
 .linkpage{
     height:30%;
     color: black;
-    -ms-grid-row-span: 5;
+    display: flex;
+    flex-direction: row;
+    
 
 }
