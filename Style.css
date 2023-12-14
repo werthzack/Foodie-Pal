@@ -1,6 +1,6 @@
 body{
     background-image: linear-gradient(to right,purple,cyan);
-
+height: 5000px;
 }
 
 .linkpage{
@@ -10,4 +10,16 @@ body{
     flex-direction: row;
     
 
+}
+.top1{
+    position: ;
+
+}
+button{
+    color: rgb(127, 219, 255);
+    border-radius: 50px;
+    background-image: linear-gradient(to right,purple,blue);
+}
+button:hover{
+    background-image: linear-gradient(to right,purple,cyan);
 }
