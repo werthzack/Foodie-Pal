@@ -15,4 +15,43 @@ body{
     background-image: url(5172658.JPG);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+}
+section{
+    position: relative;
+    max-width: 400px;
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+h1{
+    font-size: 2rem;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    border-bottom: 2px solid #fff;
+    max-width: 310px;
+    position: relative;
+    margin: 30px 0;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    font-size: 1rem;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+
+}
+.inputbox.focus~label
+input:valid~label{
+    top: -5px;
 }
